@@ -4,20 +4,31 @@
   <title>Reading Table</title>
   <style>
     body {
-      background-color: #F1F5F8;
+      background-image: url("Screen Shot 2023-05-31 at 6.51.34 PM.png");
+      background-repeat: no-repeat;
+      background-size: cover;
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
     }
     h1 {
       color: #225378;
       font-size: 36px;
       margin-bottom: 20px;
+      text-align: center;
+      margin-top: 40px;
     }
     table {
       border-collapse: collapse;
       width: 100%;
       margin-bottom: 20px;
+      background-color: #FFFFFF;
+      opacity: 0.8;
     }
     th, td {
       padding: 8px;
@@ -30,6 +41,7 @@
     }
     .button-container {
       text-align: center;
+      margin-top: 20px;
     }
     .return-button {
       padding: 12px 24px;
@@ -58,6 +70,14 @@
     <div class="button-container">
       <button class="return-button" onclick="returnToHome()">Return to Home Screen</button>
     </div>
+
+    <script>
+      // ... Rest of the JavaScript code
+    </script>
+  </div>
+</body>
+</html>
+
 
     <script>
       function getQueryParams() {
